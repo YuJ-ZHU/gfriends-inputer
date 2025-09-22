@@ -441,7 +441,7 @@ def read_config(config_file):
                 write_txt(local_path + "/README.txt",
                           '本目录自动生成，您可以存放自己收集的头像（仅支持JPG格式），这些头像将被优先导入服务器。\n\n请自行备份您收集头像的副本，根据个人配置不同，该目录文件可能会被程序修改。')
             # 定义百度AI
-            if fixsize == 3:
+            if fixsize == 4:
                 BD_AI_client = AipBodyAnalysis(BD_App_ID, BD_API_Key, BD_Secret_Key)
             else:
                 BD_AI_client = None
